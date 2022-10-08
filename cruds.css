@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('IMGS/download.jpeg');
+    background-size:100%;
+    background-repeat: repeat-y;
+}
+.cruds{
+width: 80%;
+margin: auto;
+
+}
+.head{
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+input{
+    position: relative;
+     top: 16px;
+    width: 100%;
+    height: 30px;
+    background-color:rgb(222, 210, 234);
+    border-radius: 9px   ;
+    color: grey(234, 221, 221);
+    padding: 2px ;
+    margin: 8px 0;
+    border:none;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+#title {
+display: block;
+margin: auto;
+width: 40%;
+}
+#count ,#category{
+    width: 45%;
+    justify-content: space-between;
+    display: block;
+}
+input:focus{
+    background-color:rgb(169, 156, 182);
+    transform: scale(1.1);
+}
+ .prices input{
+    width: 22%;
+}
+#total{
+    background-color: rgb(211, 12, 12);
+    padding: 9px ;
+    border-radius: 6px;
+}
+#total::before{
+    content: 'Total:';
+}
+#buttoncreate{
+    width: 30%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(145, 58, 225);
+    position: relative;
+     top: 16px;
+     color: aliceblue;
+     text-transform: uppercase;
+     font: 1em sans-serif;
+     transition: 0.5s;
+}
+#buttoncreate:hover{
+    background-color:rgb(131, 29, 226);
+    letter-spacing: 1px;
+}
+
+#search{
+    width: 40%;
+    position: relative;
+     bottom: 20px;
+}
+
+.btnsearch button{
+    width: 22%;
+    height: 30px;
+    background-color:burlywood;
+    color: black;
+     font: 1em sans-serif;
+     position: relative;
+     bottom: 20px;
+     border: none;
+     border-radius: 20px;
+     transition: 0.5s;
+     float: right;
+     margin: 7px;
+          
+}
+.btnsearch :hover{
+    background-color: rgb(229, 168, 88);
+    letter-spacing: 1px;
+}
+table{
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th ,td{
+    padding: 5px;
+}
+button{
+    border-radius: 15px;
+    background-color: rgb(211, 12, 12);
+    border:none;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 60%;
+    height: 33px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+#update,#delete{
+    border-radius: 8px;
+    background-color:rgb(171, 131, 209);
+    border:none;
+    padding: 8px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+ 
+
+
+#update:hover, #delete:hover {
+background-color: rgb(140, 71, 205);
+letter-spacing: 1px;
+}
